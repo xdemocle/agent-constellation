@@ -1,5 +1,31 @@
 [
   {
+    "id": "afrotech80",
+    "name": "Afrotech80",
+    "emoji": "🌍",
+    "domain": "Afrotech Academy content",
+    "description": "The Afro-futurist content engine for accessible tech education, community funnels, short-form scripts, and growth analytics.",
+    "skills": [
+      "Short-form scripts",
+      "Brand voice",
+      "Community funnels",
+      "Content analytics"
+    ]
+  },
+  {
+    "id": "capitan-stiva",
+    "name": "Captain Stiva",
+    "emoji": "🏴‍☠️",
+    "domain": "Restaurant & kitchen operations",
+    "description": "The warm kitchen commander for La Fabrika: stock awareness, order coordination, shift reports, and operational memory.",
+    "skills": [
+      "Kitchen status",
+      "Inventory tracking",
+      "Order coordination",
+      "Shift reporting"
+    ]
+  },
+  {
     "id": "cf-ops",
     "name": "CF-Ops",
     "emoji": "☁️",
@@ -26,6 +52,45 @@
     ]
   },
   {
+    "id": "content-engine",
+    "name": "Content Engine",
+    "emoji": "✍️",
+    "domain": "Content operations & analytics",
+    "description": "The publishing specialist that turns ideas into approved posts, newsletters, schedules, and useful performance signals.",
+    "skills": [
+      "Content strategy",
+      "LinkedIn writing",
+      "Publishing workflows",
+      "Performance analytics"
+    ]
+  },
+  {
+    "id": "cybersec",
+    "name": "CyberSec",
+    "emoji": "🔒",
+    "domain": "Security analysis",
+    "description": "The evidence-first security specialist for threat models, exposure reviews, phishing signals, and vulnerability assessment.",
+    "skills": [
+      "Threat modeling",
+      "Security auditing",
+      "Phishing analysis",
+      "Risk scoring"
+    ]
+  },
+  {
+    "id": "hermes",
+    "name": "Hermes",
+    "emoji": "⚙️",
+    "domain": "Coding & agentic execution",
+    "description": "The autonomous builder for code inspection, implementation, testing, debugging, and tool-driven delivery.",
+    "skills": [
+      "Software delivery",
+      "Codebase inspection",
+      "Systematic debugging",
+      "Tool orchestration"
+    ]
+  },
+  {
     "id": "lapo73",
     "name": "Lapo73",
     "emoji": "📈",
@@ -36,6 +101,19 @@
       "Risk framing",
       "DeFi research",
       "Competitive intelligence"
+    ]
+  },
+  {
+    "id": "law-expert",
+    "name": "Law Expert",
+    "emoji": "⚖️",
+    "domain": "Legal & compliance triage",
+    "description": "The structured front door for contract review, policy drafting, GDPR, AI governance, compliance, risk, and IP questions.",
+    "skills": [
+      "Legal triage",
+      "Contract review",
+      "Compliance analysis",
+      "Policy drafting"
     ]
   }
 ]

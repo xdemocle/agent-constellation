@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://agents.rocco.me/</loc></url>
+  <url><loc>https://agents.rocco.me/afrotech80</loc></url>
+  <url><loc>https://agents.rocco.me/capitan-stiva</loc></url>
   <url><loc>https://agents.rocco.me/cf-ops</loc></url>
   <url><loc>https://agents.rocco.me/claudio71</loc></url>
+  <url><loc>https://agents.rocco.me/content-engine</loc></url>
+  <url><loc>https://agents.rocco.me/cybersec</loc></url>
+  <url><loc>https://agents.rocco.me/hermes</loc></url>
   <url><loc>https://agents.rocco.me/lapo73</loc></url>
+  <url><loc>https://agents.rocco.me/law-expert</loc></url>
 </urlset>
