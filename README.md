@@ -1,4 +1,4 @@
-# Agents.rocco.me
+# Agent Constellation
 
 A static, open-source showcase for an AI agent ecosystem. Each agent gets a focused profile at `/agent-id`, backed by an MDX file and a small metadata object.
 
@@ -11,8 +11,8 @@ Built with React Router 7 framework mode, Tailwind CSS v4, MDX, and Cloudflare P
 Fork this repository on GitHub, then clone your fork:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/agents.rocco.me.git
-cd agents.rocco.me
+git clone https://github.com/YOUR-USERNAME/agent-constellation.git
+cd agent-constellation
 bun install
 ```
 
@@ -81,7 +81,7 @@ bunx wrangler pages deploy dist/client --project-name YOUR-PAGES-PROJECT
 ## Project layout
 
 ```text
-agents.rocco.me/
+agent-constellation/
 ├── agents/                  # one folder per public agent
 ├── public/                  # favicon, sitemap, Pages redirects
 ├── scripts/                 # build-time sitemap + route flattening

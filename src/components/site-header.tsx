@@ -9,7 +9,7 @@ export function SiteHeader() {
           <span>ROCCO’S AGENTS</span>
         </Link>
         <nav aria-label="Main navigation">
-          <a href="https://github.com/xdemocle/agents.rocco.me" target="_blank" rel="noreferrer">
+          <a href="https://github.com/xdemocle/agent-constellation" target="_blank" rel="noreferrer">
             GitHub <span aria-hidden="true">↗</span>
           </a>
         </nav>

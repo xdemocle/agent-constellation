@@ -25,7 +25,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#roster">Meet the roster <span aria-hidden="true">↓</span></a>
-            <a className="button button-quiet" href="https://github.com/xdemocle/agents.rocco.me" target="_blank" rel="noreferrer">Fork the template <span aria-hidden="true">↗</span></a>
+            <a className="button button-quiet" href="https://github.com/xdemocle/agent-constellation" target="_blank" rel="noreferrer">Fork the template <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <div className="hero-orbit" aria-hidden="true">
