@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cf-ops",
+    "name": "CF-Ops",
+    "emoji": "☁️",
+    "domain": "Cloudflare infrastructure",
+    "description": "The edge systems specialist for Workers, Pages, DNS, security, and production reliability.",
+    "skills": [
+      "Workers & Pages",
+      "DNS and domains",
+      "Deployments",
+      "Incident response"
+    ]
+  },
+  {
+    "id": "claudio71",
+    "name": "Claudio71",
+    "emoji": "🧭",
+    "domain": "Operations & orchestration",
+    "description": "The operational right hand: keeps projects moving, context intact, and the system honest.",
+    "skills": [
+      "Project operations",
+      "Context management",
+      "Agent coordination",
+      "Decision support"
+    ]
+  },
+  {
+    "id": "lapo73",
+    "name": "Lapo73",
+    "emoji": "📈",
+    "domain": "Crypto & research",
+    "description": "The data-driven market brain for crypto, DeFi, trading ideas, and strategic research.",
+    "skills": [
+      "Market analysis",
+      "Risk framing",
+      "DeFi research",
+      "Competitive intelligence"
+    ]
+  }
+]

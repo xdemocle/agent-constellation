@@ -1,0 +1,53 @@
+{
+  "name": "agents-rocco-me",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "bun": ">=1.2.15",
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "bun run prebuild && react-router build && bun run scripts/flatten-html.ts && cp dist/client/__spa-fallback.html dist/client/404.html",
+    "dev": "react-router dev",
+    "preview": "vite preview",
+    "prebuild": "bun run generate-agent-data && bun run generate-sitemap",
+    "generate-agent-data": "bun run scripts/generate-agent-data.ts",
+    "generate-sitemap": "bun run scripts/generate-sitemap.ts",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "typecheck:app": "tsc --noEmit --project tsconfig.app.json",
+    "typecheck:node": "tsc --noEmit --project tsconfig.node.json"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^3.1.1",
+    "@react-router/node": "^8.0.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router": "^8.0.0",
+    "isbot": "^5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@mdx-js/rollup": "^3.1.1",
+    "@react-router/dev": "^8.0.0",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0",
+    "postcss": "^8.5.15",
+    "prettier": "^3.8.4",
+    "rehype-highlight": "^7.0.2",
+    "rehype-slug": "^6.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1",
+    "vite": "^8.0.16"
+  }
+}

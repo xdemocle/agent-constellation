@@ -1,0 +1,9 @@
+# Generated build output
+node_modules/
+dist/
+.react-router/
+.wrangler/
+.DS_Store
+.env
+.env.*
+!.env.example
