@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "bun run prebuild && react-router build && bun run scripts/flatten-html.ts && cp dist/client/__spa-fallback.html dist/client/404.html",
+    "deploy": "bun run build && wrangler deploy --config wrangler.jsonc",
     "dev": "react-router dev",
     "preview": "vite preview",
     "prebuild": "bun run generate-agent-data && bun run generate-sitemap",
@@ -48,6 +49,7 @@
     "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.61.1",
-    "vite": "^8.0.16"
+    "vite": "^8.0.16",
+    "wrangler": "^4.103.0"
   }
 }

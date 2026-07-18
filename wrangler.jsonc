@@ -1,5 +1,16 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "agents-rocco-me",
   "compatibility_date": "2026-07-18",
-  "pages_build_output_dir": "./dist/client"
+  "assets": {
+    "directory": "./dist/client",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "agents.rocco.me",
+      "custom_domain": true
+    }
+  ]
 }
