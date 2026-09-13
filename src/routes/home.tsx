@@ -6,7 +6,7 @@ export function meta() {
     { title: 'Rocco’s Agents — A public AI agent ecosystem' },
     {
       name: 'description',
-      content: 'A field guide to Rocco’s AI agent ecosystem: focused agents for operations, research, infrastructure, content, and code.',
+      content: 'A field guide to Rocco’s AI agent ecosystem: focused agents for operations, research, infrastructure, content, security, law, and code.',
     },
   ];
 }
@@ -44,7 +44,7 @@ export default function Home() {
             <p className="eyebrow">THE ROSTER</p>
             <h2>Different jobs.<br /><em>One ecosystem.</em></h2>
           </div>
-          <p className="section-note">Every profile is a folder.<br />Drop one in. Rebuild. Live.</p>
+          <p className="section-note">Nine agents today.<br />Drop one in. Rebuild. Live.</p>
         </div>
         <div className="agent-grid">
           {agents.map(agent => <AgentCard key={agent.id} agent={agent} />)}
