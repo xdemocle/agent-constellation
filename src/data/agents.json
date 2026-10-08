@@ -78,19 +78,6 @@
     ]
   },
   {
-    "id": "hermes",
-    "name": "Hermes",
-    "emoji": "⚙️",
-    "domain": "Coding & agentic execution",
-    "description": "The autonomous builder for code inspection, implementation, testing, debugging, and tool-driven delivery.",
-    "skills": [
-      "Software delivery",
-      "Codebase inspection",
-      "Systematic debugging",
-      "Tool orchestration"
-    ]
-  },
-  {
     "id": "lapo78",
     "name": "Lapo78",
     "emoji": "📈",

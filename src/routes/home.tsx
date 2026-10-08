@@ -44,7 +44,7 @@ export default function Home() {
             <p className="eyebrow">THE ROSTER</p>
             <h2>Different jobs.<br /><em>One ecosystem.</em></h2>
           </div>
-          <p className="section-note">Nine agents today.<br />Drop one in. Rebuild. Live.</p>
+          <p className="section-note">Eight agents today.<br />Drop one in. Rebuild. Live.</p>
         </div>
         <div className="agent-grid">
           {agents.map(agent => <AgentCard key={agent.id} agent={agent} />)}
