@@ -91,11 +91,11 @@
     ]
   },
   {
-    "id": "lapo73",
-    "name": "Lapo73",
+    "id": "lapo78",
+    "name": "Lapo78",
     "emoji": "📈",
-    "domain": "Crypto & research",
-    "description": "The data-driven market brain for crypto, DeFi, trading ideas, and strategic research.",
+    "domain": "Markets & research",
+    "description": "The data-driven market brain for crypto, DeFi, trading ideas, and strategic research, rebuilt on a Hermes-based runtime.",
     "skills": [
       "Market analysis",
       "Risk framing",
