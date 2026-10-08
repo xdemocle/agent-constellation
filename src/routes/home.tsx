@@ -28,13 +28,17 @@ export default function Home() {
             <a className="button button-quiet" href="https://github.com/xdemocle/agent-constellation" target="_blank" rel="noreferrer">Fork the template <span aria-hidden="true">↗</span></a>
           </div>
         </div>
-        <div className="hero-orbit" aria-hidden="true">
-          <div className="orbit-ring orbit-ring-one" />
-          <div className="orbit-ring orbit-ring-two" />
-          <div className="orbit-core">✳</div>
-          <span className="orbit-label orbit-label-one">FOCUS</span>
-          <span className="orbit-label orbit-label-two">CONTEXT</span>
-          <span className="orbit-label orbit-label-three">SHIP</span>
+        <div className="signal-field" aria-hidden="true">
+          <div className="ring ring-a" />
+          <div className="ring ring-b" />
+          <div className="ring ring-c" />
+          <div className="core">✳</div>
+          <span className="ping ping-a" />
+          <span className="ping ping-b" />
+          <span className="ping ping-c" />
+          <span className="tag tag-a">FOCUS</span>
+          <span className="tag tag-b">CONTEXT</span>
+          <span className="tag tag-c">SHIP</span>
         </div>
       </section>
 

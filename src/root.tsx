@@ -14,7 +14,7 @@ export const meta = () => [
     name: 'description',
     content: 'Meet the AI agents in Rocco’s open-source ecosystem: focused, opinionated, and built to ship.',
   },
-  { name: 'theme-color', content: '#10100f' },
+  { name: 'theme-color', content: '#05070b' },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
